@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="foodordering.order.OrderTest" time="0.009" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\krgai\OneDrive\zarzadzanie_jakoscia\target\test-classes;C:\Users\krgai\OneDrive\zarzadzanie_jakoscia\target\classes;C:\Users\krgai\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\krgai\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\krgai\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\krgai\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;C:\Users\krgai\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\krgai\.m2\repository\org\junit\platform\junit-platform-commons\1.0.0\junit-platform-commons-1.0.0.jar;C:\Users\krgai\.m2\repository\org\junit\platform\junit-platform-launcher\1.0.0\junit-platform-launcher-1.0.0.jar;C:\Users\krgai\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\krgai\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\krgai\.m2\repository\org\mockito\mockito-junit-jupiter\2.24.0\mockito-junit-jupiter-2.24.0.jar;C:\Users\krgai\.m2\repository\org\mockito\mockito-core\2.24.0\mockito-core-2.24.0.jar;C:\Users\krgai\.m2\repository\net\bytebuddy\byte-buddy\1.9.7\byte-buddy-1.9.7.jar;C:\Users\krgai\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.7\byte-buddy-agent-1.9.7.jar;C:\Users\krgai\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrainsUlti\IntelliJ IDEA 2019.3.1\jbr\bin"/>
+    <property name="sun.java.command" value="C:\Users\krgai\AppData\Local\Temp\surefire1804299019405775479\surefirebooter1310796992006737026.jar C:\Users\krgai\AppData\Local\Temp\surefire1804299019405775479 2020-09-15T07-35-20_493-jvmRun1 surefire1156691605807581396tmp surefire_018351234646486879653tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\krgai\OneDrive\zarzadzanie_jakoscia\target\test-classes;C:\Users\krgai\OneDrive\zarzadzanie_jakoscia\target\classes;C:\Users\krgai\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\krgai\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\krgai\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\krgai\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;C:\Users\krgai\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\krgai\.m2\repository\org\junit\platform\junit-platform-commons\1.0.0\junit-platform-commons-1.0.0.jar;C:\Users\krgai\.m2\repository\org\junit\platform\junit-platform-launcher\1.0.0\junit-platform-launcher-1.0.0.jar;C:\Users\krgai\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\krgai\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\krgai\.m2\repository\org\mockito\mockito-junit-jupiter\2.24.0\mockito-junit-jupiter-2.24.0.jar;C:\Users\krgai\.m2\repository\org\mockito\mockito-core\2.24.0\mockito-core-2.24.0.jar;C:\Users\krgai\.m2\repository\net\bytebuddy\byte-buddy\1.9.7\byte-buddy-1.9.7.jar;C:\Users\krgai\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.7\byte-buddy-agent-1.9.7.jar;C:\Users\krgai\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\krgai"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\JetBrainsUlti\IntelliJ IDEA 2019.3.1\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\krgai\OneDrive\zarzadzanie_jakoscia"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\krgai\AppData\Local\Temp\surefire1804299019405775479\surefirebooter1310796992006737026.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-b520.43"/>
+    <property name="user.name" value="krgai"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\krgai\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="java.io.tmpdir" value="C:\Users\krgai\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="C:\Users\krgai\OneDrive\zarzadzanie_jakoscia"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.3.4" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\JetBrainsUlti\IntelliJ IDEA 2019.3.1\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\gradle-6.3\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\swipl\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\krgai\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\krgai\AppData\Local\Programs\Python\Python38-32\;C:\Users\krgai\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\krgai\.dotnet\tools;C:\Users\krgai\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-b520.43"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="mealListShouldBeEmptyAfterCreationOfOrder" classname="foodordering.order.OrderTest" time="0"/>
+  <testcase name="testIfTotalPriceReturnsCorrectPrice" classname="foodordering.order.OrderTest" time="0"/>
+  <testcase name="removingMealFromOrderShouldDecreaseOrderSize" classname="foodordering.order.OrderTest" time="0"/>
+  <testcase name="addingMealToOrderShouldIncreaseOrderSize" classname="foodordering.order.OrderTest" time="0.001"/>
+  <testcase name="throwsExceptionWhenPriceBelowZero" classname="foodordering.order.OrderTest" time="0.004"/>
+  <testcase name="mealsShouldBeInCorrectOrderAfterAddingThemToOrder" classname="foodordering.order.OrderTest" time="0.001"/>
+  <testcase name="orderStatusShouldBeChanged" classname="foodordering.order.OrderTest" time="0"/>
+  <testcase name="listOfMelasShouldBeEmptyAfterCancellation" classname="foodordering.order.OrderTest" time="0"/>
+</testsuite>

@@ -1,0 +1,11 @@
+foodordering\account\AccountRepository.class
+foodordering\account\AccountService.class
+foodordering\cart\CartService.class
+foodordering\order\OrderStatus.class
+foodordering\cart\CartHandler.class
+foodordering\meal\Meal.class
+foodordering\account\Address.class
+foodordering\account\Account.class
+foodordering\meal\MealRepository.class
+foodordering\cart\Cart.class
+foodordering\order\Order.class

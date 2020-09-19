@@ -1,0 +1,9 @@
+foodordering\account\AccountTest.class
+foodordering\cart\CartServiceTest.class
+foodordering\meal\MealRepositoryTest.class
+foodordering\order\OrderStatusTest.class
+foodordering\order\OrderTest.class
+foodordering\account\AccountServiceTest.class
+foodordering\cart\CartTest.class
+foodordering\meal\MealTest.class
+foodordering\account\AddressTest.class
